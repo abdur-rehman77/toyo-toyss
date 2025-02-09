@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- ICON -->
+  <link rel="icon" href="assets/images/logo.png">
+  <!-- FONT AWESOME LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- FONT -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,600;1,700&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,200;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <!-- SWIPPER -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body> 
+
+  <!-- NAVBAR -->
+  <div class="header">
+    <nav>
+     
+      <div class="logo">
+        <div class="menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="assets/images/logo.png" alt="" width="80px">
+      </div>
+      <div class="tabs">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="assets/pages/products/products.html">PRODUCTS</a></li>
+          <li><a href="assets/pages/about.html">ABOUT</a></li>
+
+          <li class="brand">BRANDS
+            <ol class="brand-list">
+              <li><a href="assets/pages/lego/lego.html">LEGO</a></li>
+              <li><a href="assets/pages/barbie/barbie.html">BARBIE</a></li>
+              <li><a href="assets/pages/pokemon/pokemon.html">POKEMON</a></li>
+              <li><a href="assets/pages/beyblade/beyblade.html">BEYBLADE</a></li>
+              <li><a href="assets/pages/kitty/kitty.html">HELLO KITTY</a></li>
+              <li><a href="assets/pages/mattel/mattel.html">MATTEL</a></li>
+              <li><a href="assets/pages/hot wheels/hotwheels.html">HOT WHEELS</a></li>
+            </ol>
+          </li>
+          <li class="brand">SHOP BY AGE
+            <ol class="brand-list">
+              <li><a href="assets/pages/age/0-8month.html">For 0-8 Months</a></li>
+              <li><a href="assets/pages/age/16-36month.html">For 16-36 Months</a></li>
+              <li><a href="assets/pages/age/3-5years.html">For 3-5 Years</a></li>
+              <li><a href="assets/pages/age/6-8years.html">For 6-8 Years</a></li>
+              <li><a href="assets/pages/age/9-11years.html">For 9-11 Years</a></li>
+              <li><a href="assets/pages/age/big-kid.html">For Big Kids</a></li>
+            </ol>
+          </li>
+          <li><a href="assets/pages/gallery.html">GALLERY</a></li>
+          <li><a href="assets/pages/contact.html">CONTACT</a></li>
+          <li><a href="assets/pages/compare-page.html">COMPARE</a></li>
+        </ul>
+      </div>
+        <div class="nav-icon">
+          <ul>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <i class="fa-solid fa-moon"></i>
+            <li><i class="fa-solid fa-cart-shopping"></i><sup class="count">0</sup></li>
+          </ul>
+        </div>
+      
+    </nav>
+  </div>
+
+  <!-- SEARCH BAR
+
+  <div class="search-bar">
+    <input type="search" placeholder="Search.....">
+  </div> -->
+
+  <!-- MOBILE NAVBAR -->
+<div class="mobile-container">
+  <div class="mobile-nav">
+    <nav>
+     
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="" height="100px">
+      </div>
+      <div class="tabs">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="assets/pages/products/products.html">PRODUCTS</a></li>
+          <li><a href="assets/pages/about.html">ABOUT</a></li>
+          <li><a href="assets/pages/gallery.html">GALLERY</a></li>
+          <li><a href="assets/pages/contact.html">CONTACT</a></li>
+          <li><a href="assets/pages/compare-page.html">COMPARE</a></li>
+        </ul>
+      </div>
+      <div class="cross">
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </nav>
+  </div>
+</div>
+<br><br>
+  <!-- SEARCH BAR -->
+
+  <div class="search-bar">
+    <input type="search" placeholder="Search Here" id="search">
+  </div>
+
+  <!-- ==========Cart Container Start========== -->
+  <div class="cart-container">
+    <div class="closeCart">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="cart-actions">
+        <div class="cart-total">
+            <h3>Total Amount:&nbsp;<span id="total">
+                    <p>0</p>
+                </span></h3>
+        </div>
+    </div>
+    <div class="cart-box">
+    </div>
+    <br><br><br>
+    <div class="order">
+      <a href="assets/pages/checkout.html">Buy Now</a></div>
+</div>
+<!-- BANNEER -->
+ <div class="banner">
+  <video src="assets/images/banner.mp4" width="100%" autoplay muted loop></video>
+ </div>
+
+<br  id="age">
+  <!-- HEADING -->
+  <div class="all-heading">
+    <div class="left-line"></div>
+    <div class="heading"><h1>SHOP BY AGE</h1></div>
+    <div class="right-line"></div>
+  </div>
+
+    <!-- SHOP BY AGE -->
+    <div class="age-container">
+      <div class="age-img">
+        <a href="assets/pages/age/0-8month.html"><img src="assets/images/0-8.png" alt=""></a>
+        <div class="age">
+          <p>0-8 Months</p>
+        </div>
+      </div>
+      <div class="age-img">
+        <a href="assets/pages/age/16-36month.html"><img src="assets/images/16-36.png" alt=""></a>
+        <div class="age">
+         <p>16-36 Months</p>
+        </div>
+      </div>
+      <div class="age-img">
+       <a href="assets/pages/age/3-5years.html"> <img src="assets/images/3-5y.png" alt=""></a>
+       <div class="age">
+        <p>3-5 Years</p>
+      </div>
+      </div>
+      <div class="age-img">
+      <a href="assets/pages/age/6-8years.html">  <img src="assets/images/6-8y.png" alt=""></a>
+      <div class="age">
+       <p>6-8 Years</p>
+      </div>
+      </div>
+      <div class="age-img" id="new">
+      <a href="assets/pages/age/9-11years.html">  <img src="assets/images/9-11y.png" alt=""></a>
+      <div class="age">
+        <p>9-11 Years</p>
+      </div>
+      </div>
+      <div class="age-img">
+       <a href="assets/pages/age/big-kid.html"> <img src="assets/images/big-kid.png" alt=""></a>
+       <div class="age">
+       <p>Big Kids</p>
+      </div>
+      </div>
+     </div>
+   <!-- HEADING -->
+   <div class="all-heading">
+    <div class="left-line"></div>
+    <div class="heading"><h1>New Arrivals</h1></div>
+    <div class="right-line"></div>
+  </div>
+  <!-- NEW ARRIVALS -->
+
+
+  <div class="card-container">
+     <!-- CARD 1 -->
+     <div class="card">
+      <div class="product">
+        <a href="assets/pages/barbie/product-detail-1.html"><img src="assets/images/Barbie brand/1-2.png" alt="" onmouseover="this.src='assets/images/Barbie brand/1.png'" onmouseout="this.src='assets/images/Barbie brand/1-2.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Barbie Gym Set</h4>
+        <h2>PKR:1999</h2>
+      </div>
+      <div class="button">
+       <button>Add To Cart</button>
+      </div>
+    </div>
+    <!-- CARD 2 -->
+    <div class="card">
+      <div class="product">
+        <a href="assets/pages/beyblade/product-detail-1 - Copy (2).html"><img src="assets/images/Beyblade brand/Beyblade 1-2.png" alt="" onmouseover="this.src='assets/images/Beyblade brand/Beyblade1.png'" onmouseout="this.src='assets/images/Beyblade brand/Beyblade 1-2.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Beyblade Strom</h4>
+        <h2>PKR:599</h2>
+      </div>
+      <div class="button">
+       <button>Add To Cart</button>
+      </div>
+    </div>
+    <!-- CARD 3 -->
+    <div class="card">
+      <div class="product">
+        <a href="assets/pages/pokemon/product-detail-1.html"><img src="assets/images/Pokémon/1.png" alt="" onmouseover="this.src='assets/images/Pokémon/2.png'" onmouseout="this.src='assets/images/Pokémon/1.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Pokemon Figure</h4>
+        <h2>PKR:3999</h2>
+      </div>
+      <div class="button">
+       <button>Add To Cart</button>
+      </div>
+    </div>
+    <!-- CARD 4 -->
+<div class="card">
+  <div class="product">
+    <a href="assets/pages/kitty/product-detail-1.html"><img src="assets/images/Kitty brand/1-2.png" alt="" onmouseover="this.src='assets/images/Kitty brand/1.png'" onmouseout="this.src='assets/images/Kitty brand/1-2.png'" ></a>
+  </div>
+  <div class="info">
+    <h4>Kitty Stuff Toy</h4>
+    <h2>PKR:3999</h2>
+  </div>
+  <div class="button">
+   <button>Add To Cart</button>
+  </div>
+</div>
+    <!-- CARD 5 -->
+    <div class="card">
+      <div class="product">
+        <a href="assets/pages/hot wheels/product-detail-1.html"><img src="assets/images/Hot wheels/2.png" alt="" onmouseover="this.src='assets/images/Hot wheels/1.png'" onmouseout="this.src='assets/images/Hot wheels/2.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Turbo Buster</h4>
+        <h2>PKR:1299</h2>
+      </div>
+      <div class="button">
+       <button>Add To Cart</button>
+      </div>
+    </div>
+    <!-- CARD 6 -->
+    <div class="card">
+      <div class="product">
+        <a href="assets/pages/lego/product-detail-1.html"><img src="assets/images/Lego brand/Lego 5-2.png" alt="" onmouseover="this.src='assets/images/Lego brand/Lego5.png'" onmouseout="this.src='assets/images/Lego brand/Lego 5-2.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Mickey Mouse Block</h4>
+        <h2>PKR:1499</h2>
+      </div>
+
+      <div class="button">
+        <button>Add To Cart</button>
+       </div>
+
+    </div>
+  </div>
+     <!-- HEADING -->
+     <div class="all-heading" id="brands">
+      <div class="left-line"></div>
+      <div class="heading"><h1>BRANDS</h1></div>
+      <div class="right-line"></div>
+    </div>
+
+    <!-- BRANDS -->
+    <div class="brand-container">
+      <div class="brand-img">
+        <a href="assets/pages/lego/lego.html"><img src="assets/images/brand/lego.png" alt=""></a>
+      </div>
+      <div class="brand-img">
+        <a href="assets/pages/beyblade/beyblade.html"><img src="assets/images/brand/beyblade.png" alt=""></a>
+      </div>
+      <div class="brand-img">
+       <a href="assets/pages/barbie/barbie.html"> <img src="assets/images/brand/barbie.png" alt=""></a>
+      </div>
+      <div class="brand-img">
+      <a href="assets/pages/hot wheels/hotwheels.html"><img src="assets/images/brand/hotwheels.png" alt=""></a>
+      </div>
+      <div class="brand-img">
+       <a href="assets/pages/pokemon/pokemon.html"><img src="assets/images/brand/pokemon.png" alt=""></a>
+      </div>
+      <div class="brand-img">
+        <a href="assets/pages/kitty/kitty.html"> <img src="assets/images/brand/kitty.png" alt=""></a>
+       </div>
+       <div class="brand-img">
+        <a href="assets/pages/mattel/mattel.html"> <img src="assets/images/brand/Mattel.png" alt=""></a>
+       </div>
+     </div>
+
+        <!-- HEADING -->
+   <div class="all-heading">
+    <div class="left-line"></div>
+    <div class="heading"><h1>Client Reviews</h1></div>
+    <div class="right-line"></div>
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="client-card">
+        <div class="client-pic">
+       <img src="assets/images/client/4.png" alt="">
+        </div>
+        <div class="client-review">
+          <p>The service provided is top-notch, and the product exceeded my expectations. I will
+            definitely
+            recommend it.</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <h3>Talha Khan</h3>
+        </div>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-pic">
+         <img src="assets/images/client/3.png" alt="">
+          </div>
+          <div class="client-review">
+            <p>The service provided is top-notch, and the product exceeded my expectations. I will
+              definitely
+              recommend it.</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <h3>Ayesha Danish</h3>
+          </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="client-card">
+            <div class="client-pic">
+           <img src="assets/images/client/4.png" alt="">
+            </div>
+            <div class="client-review">
+              <p>Excellent quality and amazing support! The experience was seamless, and I am really satisfied
+                with
+                it. Worth buying</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <h3>Ali Hamza</h3>
+            </div>
+          </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="client-card">
+              <div class="client-pic">
+             <img src="assets/images/client/4.png" alt="">
+              </div>
+              <div class="client-review">
+                <p>Truly impressed with the product's performance and the team's professionalism. It was worth
+                  every
+                  penny.</p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <h3>Abdur Rehman</h3>
+              </div>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="client-card">
+                <div class="client-pic">
+               <img src="assets/images/client/1.png" alt="">
+                </div>
+                <div class="client-review">
+                  <p>The quality and attention to detail in the product are remarkable. I am very happy with my
+                    purchase.
+                    Totally worth it</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h3>Laraib Qadir</h3>
+                </div>
+              </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client-card">
+                  <div class="client-pic">
+                 <img src="assets/images/client/4.png" alt="">
+                  </div>
+                  <div class="client-review">
+                    <p>I am extremely satisfied with the service and product. It was an exceptional experience from
+                      start to
+                      end.</p>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <h3>Tayab Sheikh</h3>
+                  </div>
+                </div>
+                </div>
+
+    </div>
+    <div class="swiper-pagination" id="slider-btn"></div>
+  </div>
+
+     <!-- AD BANNER -->
+      <div class="ad">
+        <img src="assets/images/ad-banner.jpg" alt="" width="80%" height="300px">
+      </div>
+
+       <!-- HEADING -->
+       <div class="all-heading">
+        <div class="left-line"></div>
+        <div class="heading"><h1>PRODUCTS</h1></div>
+        <div class="right-line"></div>
+      </div>
+      
+      <!-- PRODUCTS -->
+
+      <div class="card-container">
+        <!-- CARD 1 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/barbie/product-detail-1.html"><img src="assets/images/Barbie brand/1-2.png" alt="" onmouseover="this.src='assets/images/Barbie brand/1.png'" onmouseout="this.src='assets/images/Barbie brand/1-2.png'" ></a>
+          </div>
+          <div class="info">
+            <h4>Barbie Gym Set</h4>
+            <h2>PKR:1999</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/beyblade/product-detail-1 - Copy (2).html"><img src="assets/images/Beyblade brand/Beyblade 1-2.png" alt="" onmouseover="this.src='assets/images/Beyblade brand/Beyblade1.png'" onmouseout="this.src='assets/images/Beyblade brand/Beyblade 1-2.png'" ></a>
+          </div>
+          <div class="info">
+            <h4>Beyblade Strom</h4>
+            <h2>PKR:599</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 3 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/pokemon/product-detail-1.html"><img src="assets/images/Pokémon/1.png" alt="" onmouseover="this.src='assets/images/Pokémon/2.png'" onmouseout="this.src='assets/images/Pokémon/1.png'" ></a>
+          </div>
+          <div class="info">
+            <h4>Pokemon Figure</h4>
+            <h2>PKR:3999</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 4 -->
+       <!-- CARD 1 -->
+    <div class="card">
+      <div class="product">
+        <a href="assets/pages/kitty/product-detail-1.html"><img src="assets/images/Kitty brand/1-2.png" alt="" onmouseover="this.src='assets/images/Kitty brand/1.png'" onmouseout="this.src='assets/images/Kitty brand/1-2.png'" ></a>
+      </div>
+      <div class="info">
+        <h4>Kitty Stuff Toy</h4>
+        <h2>PKR:3999</h2>
+      </div>
+      <div class="button">
+       <button>Add To Cart</button>
+      </div>
+    </div>
+        <!-- CARD 5 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/hot wheels/product-detail-1.html"><img src="assets/images/Hot wheels/2.png" alt="" onmouseover="this.src='assets/images/Hot wheels/1.png'" onmouseout="this.src='assets/images/Hot wheels/2.png'" ></a>
+          </div>
+          <div class="info">
+            <h4>Turbo Buster</h4>
+            <h2>PKR:1299</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 6 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/lego/product-detail-1.html"><img src="assets/images/Lego brand/Lego 5-2.png" alt="" onmouseover="this.src='assets/images/Lego brand/Lego5.png'" onmouseout="this.src='assets/images/Lego brand/Lego 5-2.png'" ></a>
+          </div>
+          <div class="info">
+            <h4>Mickey Mouse Block</h4>
+            <h2>PKR:1499</h2>
+          </div>
+    
+          <div class="button">
+            <button>Add To Cart</button>
+           </div>
+    
+        </div>
+        <!-- CARD 7 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/barbie/product-detail-1.html"><img src="assets/images/Barbie brand/2-2.png" alt="" onmouseover="this.src='assets/images/Barbie brand/2.png'" onmouseout="this.src='assets/images/Barbie brand/2-2.png'"></a>
+          </div>
+          <div class="info">
+            <h4>Barbie Figure Set</h4>
+            <h2>PKR:999</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+      
+        <!-- CARD 8 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/beyblade/product-detail-1 - Copy (2).html"><img src="assets/images/Beyblade brand/Beyblade 2-2.png" alt="" onmouseover="this.src='assets/images/Beyblade brand/Beyblade 2.png'" onmouseout="this.src='assets/images/Beyblade brand/Beyblade 2-2.png'"></a>
+          </div>
+          <div class="info">
+            <h4>Beyblade Drago</h4>
+            <h2>PKR:699</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/kitty/product-detail-1.html"><img src="assets/images/Kitty brand/2.png" alt="" onmouseover="this.src='assets/images/Kitty brand/2-2.png'" onmouseout="this.src='assets/images/Kitty brand/2.png'"></a>
+          </div>
+          <div class="info">
+            <h4>Kitty Colour</h4>
+            <h2>PKR:999</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 10 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/hot wheels/product-detail-1.html"><img src="assets/images/Hot wheels/4.png" alt="" onmouseover="this.src='assets/images/Hot wheels/3.png'" onmouseout="this.src='assets/images/Hot wheels/4.png'"></a>
+          </div>
+          <div class="info">
+            <h4>VGNXR</h4>
+            <h2>PKR1499:</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 11 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/lego/product-detail-1.html"><img src="assets/images/Lego brand/Lego6-2.png" alt="" onmouseover="this.src='assets/images/Lego brand/Lego6.png'" onmouseout="this.src='assets/images/Lego brand/Lego6-2.png'"></a>
+          </div>
+          <div class="info">
+            <h4>Frozen 2 Block</h4>
+            <h2>PKR:1399</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+        <!-- CARD 12 -->
+        <div class="card">
+          <div class="product">
+            <a href="assets/pages/pokemon/product-detail-1.html"><img src="assets/images/Pokémon/3.png" alt="" onmouseover="this.src='assets/images/Pokémon/4.png'" onmouseout="this.src='assets/images/Pokémon/3.png'"></a>
+          </div>
+          <div class="info">
+            <h4>Pokemon Black Cards</h4>
+            <h2>PKR:1999</h2>
+          </div>
+          <div class="button">
+           <button>Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW-MORE BUTTON -->
+      <div class="viewmore-button">
+        <a href="assets/pages/products/products.html">View More</a>
+       </div>
+<br>
+
+       <!-- FOOTER -->
+
+      <footer>
+        <div class="footer">
+       <div class="footer-logo">
+        <img src="assets/images/logo.png" alt="" width="100%">
+       </div>
+       <div class="footer-top">
+        <div class="link">
+          <h3>Quick Links</h3>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assets/pages/products/products.html">Products</a></li>
+            <li><a href="assets/pages/gallery.html">Gallery</a></li>
+            <li><a href="assets/pages/about.html">About Us</a></li>
+            <li><a href="assets/pages/contact.html">Contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="link">
+          <h3>Service</h3>
+
+          <ul>
+            <li>Free Delivery</li>
+            <li>24/7 Customer Service</li>
+            <li>Secure Peyment</li>
+            <li>Gift Wrapping</li>
+          </ul>
+        </div>
+
+        <div class="link">
+          <h3>Categories</h3>
+
+          <ul>
+            <li><a href="#new">New Arrivals</a></li>
+            <li><a href="#age">Shop By Age</a></li>
+            <li><a href="#brand">Shop By Brands</a></li>
+          </ul>
+        </div>
+
+        <div class="link">
+          <h3>Get In Touch</h3>
+
+          <ul>
+            <li><a href="">Email: apt009harry@gmail.com</a></li>
+            <li><a href="">Phone: 03344705342</a></li>
+          </ul>
+        </div>
+
+       </div>
+       <div class="footer-bottom">
+        <div class="copyright">
+          Copyright&copy;2025
+        </div>
+
+        <div class="social">
+         <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+         <a href="https://web.facebook.com/?_rdc=1&_rdr#"><i class="fa-brands fa-square-facebook"></i></a>
+         <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+         <a href="https://blog.x.com/en_us/topics/company/2023/one-year-in"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+       </div>
+        </div>
+      </footer>
+    
+<script src="assets/js/swiper-bundle.min.js"></script>
+      <!-- JAVASCRIPT -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+        320: {  // For small screens (mobile)
+            slidesPerView: 1,
+        },
+        480: {  // Slightly larger screens
+            slidesPerView: 1,
+        },
+        768: {  // Tablets
+            slidesPerView: 2,
+        },
+        1024: { // Laptops
+            slidesPerView: 3,
+        },
+        1200: { // Large screens
+            slidesPerView: 4,
+        }
+    }
+        });
+    </script>
+
+    <!-- JQUERY -->
+<script src="assets/js/jquery-3.7.1.js"></script>
+
+<!-- JQUERY LINK -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- JQUERY -->
+<script>
+
+
+// NAVEBAR
+$(document).ready(function(){
+  $(".menu").click (function(){
+    $(".mobile-container").slideDown(500);
+  })
+  $(".cross").click (function(){
+    $(".mobile-container").slideUp(300);
+  })
+})
+// SEARCH BAR
+$(document).ready(function(){
+  $(".fa-magnifying-glass").click (function(){
+    $(".search-bar").slideToggle(300);
+  });
+})
+// SEARCHING
+$(document).ready(function () {
+    $("#search").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $(".card").filter(function () {
+            $(this).toggle($(this).find("h4").text().toLowerCase().indexOf(value) > -1);
+        });
+    });
+});
+// DARK MODE
+        $(document).ready(function(){
+
+            $(".fa-moon").click(function(){
+                $('body,h1, .left-line, .right-line').toggleClass('dark');
+            
+            })
+     
+        })
+
+        
+// Cart Container
+$(document).ready(function () {
+    $(".fa-cart-shopping").click(function () {
+        $(".cart-container").toggle(150);
+    })
+    $(".closeCart").click(function () {
+        $(".cart-container").hide(150);
+    })
+})
+
+// Add To Cart
+$(document).ready(function () {
+    let totalPrice = 0;
+    let itemCount = 0;
+
+    $(".button").click(function () {
+        let myCard = $(this).closest(".card");
+
+        let itemPic = myCard.find("img").attr("src");
+        let itemName = myCard.find(".info h4").text();
+        let itemPrice = parseFloat(myCard.find(".info h2").text().replace("PKR:", "").trim());
+
+        let item = `        <div class="cart-content">
+            <div class="cart-pic">
+                <img src="${itemPic}" alt="">
+            </div>
+            <div class="cart-info">
+                <p>${itemName}</p>
+            </div>
+            <div class="cart-total">
+                <p>PKR ${itemPrice}</p>
+            </div>
+            <div class="del">
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        `;
+        $(".cart-box").append(item)
+        alert("added to cart");
+
+        // Total Price
+        totalPrice += itemPrice;
+        $("#total").text(totalPrice.toFixed(2));
+
+        itemCount++;
+        $(".count").text(itemCount);
+
+    });
+
+    // Removing Items
+    $(".cart-box").on("click", ".del", function () {
+        let itemPrice = parseFloat($(this).closest(".cart-content").find(".cart-total p").text().replace("PKR", "").trim());
+
+
+        totalPrice -= itemPrice;
+        $("#total").text(totalPrice.toFixed(2));
+
+        $(this).closest(".cart-content").remove();
+
+        itemCount--;
+        $(".count").text(itemCount);
+    });
+
+});
+
+</script>
+
+
+</body>
+</html>
